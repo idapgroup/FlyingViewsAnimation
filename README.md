@@ -3,6 +3,8 @@
 ## Description
 **FlyingViewsAnimation** is a customizable view that will allow you to decorate your iOS application with animation with a continuous stream of flying views distributed randomly throughout the background.
 
+https://github.com/idapgroup/FlyingViewsAnimation/assets/104763688/3d54e1a9-c32f-4501-b749-f314eb8569d8
+
 ## Usage example in UIKit
 Below is an example of the most basic use and customization of FlyingViewsAnimation view.
 
@@ -15,10 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let animatedView = AnimatedView()
-        animatedView.set(item: { UIImageView(image: UIImage(systemName: "snowflake")) })
-        animatedView.set(colors: [.red, .blue,.green])
+        animatedView.set(item: { UIImageView(image: UIImage(systemName: "sparkle")) })
+        animatedView.set(colors: [.cyan,.blue,.gray])
         animatedView.set(angle: 60)
-        animatedView.setItem(size: 10)
+        animatedView.setItem(size: 30)
         animatedView.frame = self.view.bounds
 
         self.view.addSubview(animatedView)
