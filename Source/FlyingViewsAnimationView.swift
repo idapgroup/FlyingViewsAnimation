@@ -25,7 +25,7 @@ final class AdvancedFlyingViewsView: UIView {
     // MARK: -
     // MARK: Init
     
-    init() {
+    public init() {
         super.init(frame: CGRect())
         
         self.setup()
